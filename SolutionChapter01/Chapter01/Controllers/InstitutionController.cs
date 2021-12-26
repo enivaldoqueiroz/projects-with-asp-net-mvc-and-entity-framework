@@ -18,6 +18,29 @@ namespace Chapter01.Controllers
                     Nome = "UniParaná",
                     Endereco = "Paraná"
                     
+                },
+                new Institution(){
+                    InstitutionID = 2,
+                    Nome = "UniSanta",
+                    Endereco = "Santa Catarina"
+                },
+                new Institution()
+                {
+                    InstitutionID = 3,
+                    Nome = "UniSaoPaulo",
+                    Endereco = "São Paula"
+                },
+                new Institution()
+                {
+                    InstitutionID = 4,
+                    Nome = "UniSulgrandense",
+                    Endereco = "Rio Grande do Sul"
+                },
+                new Institution()
+                {
+                    InstitutionID = 5,
+                    Nome = "UniCarioca",
+                    Endereco = "Rio de Janeiro"
                 }
             };
 
