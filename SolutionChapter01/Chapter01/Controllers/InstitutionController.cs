@@ -10,7 +10,7 @@ namespace Chapter01.Controllers
     public class InstitutionController : Controller
     {
         private static IList<Institution> institutions =
-            new List<Institution>
+            new List<Institution>()
             {
                 new Institution()
                 {
@@ -47,7 +47,7 @@ namespace Chapter01.Controllers
         // Definition of an action called Index
         public IActionResult Index()
         {
-            return View();
+            return View(institutions);
         }
     }
 }
