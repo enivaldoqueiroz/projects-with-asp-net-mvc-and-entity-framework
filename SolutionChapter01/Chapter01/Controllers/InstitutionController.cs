@@ -15,32 +15,32 @@ namespace Chapter01.Controllers
                 new Institution()
                 {
                     InstitutionID = 1,
-                    Nome = "UniParaná",
-                    Endereco = "Paraná"
+                    Name = "UniParaná",
+                    Address = "Paraná"
                     
                 },
                 new Institution(){
                     InstitutionID = 2,
-                    Nome = "UniSanta",
-                    Endereco = "Santa Catarina"
+                    Name = "UniSanta",
+                    Address = "Santa Catarina"
                 },
                 new Institution()
                 {
                     InstitutionID = 3,
-                    Nome = "UniSaoPaulo",
-                    Endereco = "São Paula"
+                    Name = "UniSaoPaulo",
+                    Address = "São Paula"
                 },
                 new Institution()
                 {
                     InstitutionID = 4,
-                    Nome = "UniSulgrandense",
-                    Endereco = "Rio Grande do Sul"
+                    Name = "UniSulgrandense",
+                    Address = "Rio Grande do Sul"
                 },
                 new Institution()
                 {
                     InstitutionID = 5,
-                    Nome = "UniCarioca",
-                    Endereco = "Rio de Janeiro"
+                    Name = "UniCarioca",
+                    Address = "Rio de Janeiro"
                 }
             };
 
